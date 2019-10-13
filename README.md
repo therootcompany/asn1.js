@@ -2,7 +2,7 @@
 
 Built by [The Root Company](https://therootcompany.com)
 for [Greenlock](https://greenlock.domains)
-and [ACME.js](https://git.rootprojects.org/root/acme.js)
+and [Keypairs.js](https://git.rootprojects.org/root/keypairs.js)
 
 Lightweight, Zero-Dependency ASN.1 encoder and decoder for Node.js and Browsers,
 in less than 300 lines of vanilla JavaScript
