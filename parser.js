@@ -91,9 +91,9 @@ ASN1.parseVerbose = function parseAsn1Helper(buf, opts) {
 				index += 2 + child.lengthSize + child.length;
 				//console.warn('2 len:', (2 + asn1.lengthSize + asn1.length), 'idx:', index, 'clen:', (2 + child.lengthSize + child.length));
 				if (index > 2 + asn1.lengthSize + asn1.length) {
-					if (!eager) {
-						console.error(JSON.stringify(asn1, ASN1._replacer, 2));
-					}
+					//if (!eager) {
+					//	console.error(JSON.stringify(asn1, ASN1._replacer, 2));
+					//}
 					throw new Error(
 						'Parse error: child value length (' +
 							child.length +
