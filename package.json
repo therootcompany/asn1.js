@@ -3,13 +3,9 @@
 	"version": "1.0.1",
 	"description": "VanillaJS, Lightweight, Zero-Dependency, ASN.1 encoder and decoder.",
 	"main": "index.js",
-	"browser": {
-		"./node/native.js": "./browser/native.js"
-	},
 	"files": [
 		"*.js",
-		"node",
-		"browser",
+		"*.d.ts",
 		"dist"
 	],
 	"scripts": {
@@ -22,7 +18,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://git.rootprojects.org/root/asn1.js.git"
+		"url": "https://github.com/therootcompany/asn1.js.git"
 	},
 	"keywords": [
 		"ASN.1",
@@ -36,6 +32,7 @@
 		"@root/pem": "^1.0.4"
 	},
 	"dependencies": {
-		"@root/encoding": "^1.0.1"
+		"@root/encoding": "^1.0.1",
+		"@types/root__asn1": "^1.0.0"
 	}
 }
