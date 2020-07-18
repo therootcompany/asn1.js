@@ -13,6 +13,7 @@
 		"dist"
 	],
 	"scripts": {
+		"build": "bash build.sh",
 		"test": "node tests"
 	},
 	"repository": {
@@ -28,7 +29,8 @@
 	"author": "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)",
 	"license": "MPL-2.0",
 	"devDependencies": {
-		"@root/pem": "^1.0.3"
+		"@root/pem": "^1.0.4",
+		"uglify-js": "^3.10.0"
 	},
 	"dependencies": {
 		"@root/encoding": "^1.0.1"

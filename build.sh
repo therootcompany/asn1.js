@@ -2,9 +2,9 @@
 
 # TODO convert to JS
 cat parser.js packer.js > all.tmp.js
-sed -i '' '/use strict/d' all.tmp.js
-sed -i '' '/require/d' all.tmp.js
-sed -i '' '/exports/d' all.tmp.js
+sed -i '/use strict/d' all.tmp.js
+sed -i '/require/d' all.tmp.js
+sed -i '/exports/d' all.tmp.js
 
 echo ';(function () {' > dist/asn1.js
 echo "'use strict';" >> dist/asn1.js
