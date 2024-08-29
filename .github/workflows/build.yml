@@ -3,15 +3,15 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: "14"
-      - run: npm install
+          node-version: "22"
+      - run: npm clean-install
       - run: npm run build
       - name: check dist files
         run: |
-          [[ $(git status --porcelain | tee /dev/stderr | wc -l) -eq 0 ]]
+          test $(git status --porcelain | tee /dev/stderr | wc -l) -eq 0
       - run: npm test
