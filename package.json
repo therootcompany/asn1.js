@@ -13,9 +13,9 @@
 		"dist"
 	],
 	"scripts": {
-		"build": "bash build.sh",
+		"build": "sh ./build.sh",
 		"fmt": "npm run basetag-rebase && npm run prettier",
-		"test": "node tests",
+		"test": "node ./tests/",
 		"--------": "--------------------------------------------------------------------------",
 		"prettier": "npx -p prettier@2 -- prettier --write '**/*.{md,js,jsx,json,css,html,vue}'"
 	},
@@ -29,11 +29,10 @@
 		"x509",
 		"PEM"
 	],
-	"author": "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)",
+	"author": "AJ ONeal <aj@therootcompany.com> (https://therootcompany.com/)",
 	"license": "MPL-2.0",
 	"devDependencies": {
-		"@root/pem": "^1.0.4",
-		"uglify-js": "^3.10.0"
+		"@root/pem": "^1.0.4"
 	},
 	"dependencies": {
 		"@root/encoding": "^1.0.1"
