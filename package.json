@@ -1,6 +1,6 @@
 {
 	"name": "@root/asn1",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "VanillaJS, Lightweight, Zero-Dependency, ASN.1 encoder and decoder.",
 	"main": "index.js",
 	"browser": {
