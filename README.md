@@ -1,7 +1,7 @@
-# @root/asn1
+# [@root/asn1](https://git.rootprojects.org/root/asn1.js)
 
 Built by [The Root Company](https://therootcompany.com)
-for [Greenlock](https://greenlock.domains)
+for [Greenlock](https://git.rootprojects.org/root/greenlock.js)
 and [Keypairs.js](https://git.rootprojects.org/root/keypairs.js)
 
 Lightweight, Zero-Dependency ASN.1 encoder and decoder for Node.js and Browsers,
@@ -386,10 +386,7 @@ Our goal is to operate as a sustainable community.
 
 Your contributions - both in code and _especially_ monetarily -
 help to not just this project, but also our broader work
-of [projects](https://rootprojects.org) that fuel the **Indie Web**.
-
-Also, we chat on [Keybase](https://keybase.io)
-in [#rootprojects](https://keybase.io/team/rootprojects)
+of [projects](https://therootcompany.com) that fuel the **Indie Web**.
 
 # Commercial Support
 
