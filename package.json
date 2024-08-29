@@ -14,7 +14,10 @@
 	],
 	"scripts": {
 		"build": "bash build.sh",
-		"test": "node tests"
+		"fmt": "npm run basetag-rebase && npm run prettier",
+		"test": "node tests",
+		"--------": "--------------------------------------------------------------------------",
+		"prettier": "npx -p prettier@2 -- prettier --write '**/*.{md,js,jsx,json,css,html,vue}'"
 	},
 	"repository": {
 		"type": "git",
