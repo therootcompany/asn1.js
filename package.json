@@ -32,7 +32,6 @@
 		"@root/pem": "^1.0.4"
 	},
 	"dependencies": {
-		"@root/encoding": "^1.0.1",
-		"@types/root__asn1": "^1.0.0"
+		"@root/encoding": "^1.0.1"
 	}
 }
